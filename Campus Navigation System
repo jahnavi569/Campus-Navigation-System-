@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <limits>
+#include <algorithm>
+
+using namespace std;
+
+const int INF = 1000000;
+
+class CampusNavigationSystem {
+private:
+    int totalLocations;
+    vector<string> locationNames;
+    vector<vector<int>> campusMap;
