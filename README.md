@@ -1,37 +1,38 @@
-## Campus Navigation System Using Graphs and Dijkstra's Algorithm
+## CAMPUS NAVIGATION SYSTEM (DIJKSTRA'S ALGORITHM)
 
-## Overview
+# OVERVIEW
 
-A C++-based campus navigation system that helps users find the shortest route between different locations within a college campus. The application models campus locations as a graph and uses Dijkstra's Algorithm to compute the most efficient path between a source and destination.
+A C++-based campus navigation system that finds the shortest route between campus locations using Graph Data Structures and Dijkstra’s Algorithm.The system models campus locations as nodes and paths as weighted edges to compute the most efficient route between any two points.
 
-## Features
+# FEATURES
 
-* Add and manage campus locations
-* Create paths with distance information between locations
-* Display the campus adjacency matrix
-* Find the shortest route between any two locations
-* Display total distance and complete path
-* Interactive menu-driven interface
+- Add and manage campus locations
+- Create paths with distance between locations
+- Display campus adjacency matrix
+- Find shortest route between any two locations
+- Display total distance and optimal path
+- Interactive menu-driven interface
 
-## Technologies Used
+# TECHNOLOGIES USED
 
-* C++
-* Object-Oriented Programming (OOP)
-* Graphs (Adjacency Matrix)
-* Dijkstra's Shortest Path Algorithm
-* Vectors and Strings
-* STL
+- C++
+- Object-Oriented Programming (OOP)
+- Graph Data Structure (Adjacency Matrix)
+- Dijkstra’s Shortest Path Algorithm
+- Vectors & Strings
+- STL
 
-## How It Works
+# HOW IT WORKS
 
-The system represents campus locations such as Hostels, Library, Cafeteria, and Academic Blocks as nodes in a graph. Distances between locations are stored as weighted edges. Using Dijkstra's Algorithm, the application calculates the shortest route and distance between selected locations.
+- Campus locations are represented as graph nodes
+- Distances between locations are stored as weighted edges
+- Dijkstra’s Algorithm calculates shortest path
+- The system outputs: Minimum distance, Step-by-step route
 
-## Learning Outcomes
+# LEARNING OUTCOMES
 
-* Implemented graph-based data structures
-* Applied Dijkstra's Algorithm for shortest path computation
-* Strengthened understanding of OOP concepts in C++
-* Developed an interactive menu-driven application
-* Practiced route optimization using graph theory
-
-=
+- Implemented graph-based data structures in C++
+- Applied Dijkstra’s Algorithm for shortest path solving
+- Strengthened OOP concepts
+- Built interactive console application
+- Learned route optimization using graph theory
